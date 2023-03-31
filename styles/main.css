@@ -235,7 +235,7 @@ body, * {
 
 
 /* Desktop */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .container{
     height: 100vh;
   }
