@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/main.css">
+
+
+</head>
+<body>
+<div class="container">
+  <div class="result">
+    <header class="main">
+      <div class="main__title">  Your Result</div>
+      <div class="main__score">
+        <div class="main__score-number">76</div>
+        <div class="main__score-total">of 100</div>
+      </div>
+      <div class="main__information">
+        <div class="main__information-title">Great</div>
+        <div class="main__information-text">  You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+    </header>
+  
+    <section class="summary">
+      <div class="summary__title">Summary</div>
+      <div class="summary__container">
+        <div class="summary__card summary__card--red">
+          <div class="summary__card-attribute">
+            <div class="summary__card-attribute-icon">
+              <img src="./assets/images/icon-reaction.svg" alt="icon-reaction">
+            </div>
+            <div class="summary__card-attribute-title">Reaction</div>
+          </div>
+          <div class="summary__card-score">80 <span class="summary__card-score--total">/ 100</span></div>
+        </div>
+        <div class="summary__card summary__card--yellow">
+          <div class="summary__card-attribute">
+            <div class="summary__card-attribute-icon">
+              <img src="./assets/images/icon-memory.svg" alt="icon-memory">
+            </div>
+            <div class="summary__card-attribute-title">Memory</div>
+          </div>
+          <div class="summary__card-score">92 <span class="summary__card-score--total">/ 100</span></div>
+        </div>
+        <div class="summary__card summary__card--green">
+          <div class="summary__card-attribute">
+            <div class="summary__card-attribute-icon">
+              <img src="./assets/images/icon-verbal.svg" alt="icon-verbal">
+            </div>
+            <div class="summary__card-attribute-title">Verbal</div>
+          </div>
+          <div class="summary__card-score">61 <span class="summary__card-score--total">/ 100</span></div>
+        </div>
+        <div class="summary__card summary__card--blue">
+          <div class="summary__card-attribute">
+            <div class="summary__card-attribute-icon">
+              <img src="./assets/images/icon-visual.svg" alt="icon-visual">
+            </div>
+            <div class="summary__card-attribute-title">Visual</div>
+          </div>
+          <div class="summary__card-score">72 <span class="summary__card-score--total">/ 100</span></div>
+        </div>
+      </div>
+      <section class="actions">
+        <div class="actions__button-continue">Continue</div>
+      </section>
+      
+    </section>
+  
+ 
+  </div>
+</div>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://www.kevinpuscan.com">Kevin Puscan</a>.
+</div>
+</body>
+</html>
